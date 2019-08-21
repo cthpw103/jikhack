@@ -13,7 +13,7 @@ print("waiting for game modules...")
 client.findModules();
 print("modules found, client adress: "+client.clientModule.modBaseAddr+" engine adress: "+ client.engineModule.modBaseAddr)
 
-// load every cheat module
+# load every cheat module
 client.loadCModules("modules");
 
 def hack(*args):
